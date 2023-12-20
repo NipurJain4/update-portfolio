@@ -1,0 +1,328 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(wp6.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  /* background-position: right; */
+  background-attachment: fixed;
+  color: white;
+  height: 100%;
+  font-family: 'Poppins', sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 90px;
+  background: rgb(221, 9, 9, 0.8);
+  position: fixed;
+  margin-top: -110px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  list-style: none;
+  margin: 0 23px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+nav ul li a:hover {
+  font-size: 1.05rem;
+  color: black;
+  border-bottom: 5px black solid;
+  border-radius: 3px;
+}
+
+.left {
+  font-size: 1.6rem;
+}
+
+h1 {
+  font-size: 1.8rem;
+  color: White;
+  margin-top: 100px;
+  /* margin-bottom: 10px; */
+  text-align: center;
+}
+
+.Contactsection {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 150px;
+  margin-top: 60px;
+  background: rgb(255, 255, 255, 0.4);
+  width: 1000px;
+  color: black;
+}
+
+.Contactsection>div {
+  justify-content: space-between;
+  height: 450px;
+}
+
+.leftsection {
+  font-size: 1rem;
+  width: 400px;
+  margin-top: 100px;
+}
+
+.leftsection .hello {
+  font-size: 1.5rem;
+}
+
+.leftsection ul {
+  padding-inline-start: 30px;
+  list-style: none;
+}
+
+.leftsection ul li {
+  font-size: 1rem;
+  justify-content: space-between;
+  margin: 5px;
+}
+
+.rightsection {
+  margin-right: 60px;
+  background-color: rgba(190, 43, 43, 0.6);
+  border-radius: 20px;
+  width: 360px;
+}
+
+form {
+  align-items: center;
+  text-align: center;
+}
+
+form h2 {
+  color: white;
+  margin-bottom: 30px;
+  margin-top: 5px;
+}
+
+form p {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+form input {
+  margin: 20px;
+  margin-top: 0px;
+  width: 250px;
+  font-family: 'Arial', Times, serif;
+  font: size 10px;
+  height: 40px;
+  border: 2px solid white;
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255, 0.4);
+  font-size: 16px;
+  /* font-weight: bold; */
+}
+
+#message {
+  margin: 20px;
+  margin-top: 0px;
+  width: 250px;
+  font-family: Arial, Helvetica, sans-serif;
+  font: size 10px;
+  height: 80px;
+  border: 2px solid white;
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255, 0.4);
+  font-size: 16px;
+  /* font-weight: bold; */
+}
+
+form button {
+  height: 30px;
+  width: 100px;
+  border: 2px solid black;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+form button:hover {
+  background-color: black;
+  color: white;
+  border: 2px solid white;
+}
+
+section table {
+  margin-top: 15px;
+}
+
+table tr td {
+  padding: 5px;
+}
+
+.logotable tr td a {
+  padding: 15px;
+  font-size: 15px;
+  text-align: center;
+  text-decoration: none;
+  justify-content: space-between;
+  border: 2px solid white;
+  border-radius: 50px;
+}
+
+/* Add a hover effect if you want */
+.logotable tr td a:hover {
+  /* opacity: 0.7; */
+  /* background-color: rgb(39, 12, 75); */
+  background-color: black;
+  color: black;
+  /* border-radius: 0px; */
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+#mf {
+  /* background: #3B5998; */
+  color: white;
+}
+
+/* Linkdin */
+#ml {
+  /* background: #104913; */
+  color: white;
+}
+
+/* Twitter */
+#mt {
+  /* background: #55ACEE; */
+  color: white;
+}
+
+/* Instagram */
+#mi {
+  /* background: #c9155a; */
+  color: white;
+}
+
+/*Github*/
+#mg {
+  /* background: #175091; */
+  color: white;
+}
+
+footer {
+  background-color: black;
+  margin-top: 60px;
+  opacity: 80%;
+}
+
+.footer {
+  display: flex;
+  padding: 23px 133px;
+  justify-content: space-between;
+}
+
+.footer .first {
+  font-size: 1.5rem;
+}
+
+.footer ul {
+  list-style: none;
+}
+
+.footerlink {
+  text-decoration: none;
+  color: white;
+}
+
+.footerlink:hover {
+  font-size: 1.1rem;
+}
+
+.footer>div {
+  width: 235px;
+}
+
+footer .footer-rights {
+  text-align: center;
+  color: gray;
+  padding: 12px 0;
+}
+
+.subscribe_btn {
+  padding: 5px;
+  background-color: rgb(221, 25, 25);
+  color: white;
+  border: 2px solid white;
+  border-radius: 8px;
+  font-size: 15px;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+.subscribe_btn:hover {
+  padding: 10px
+}
+
+.Third ul li {
+  margin: 5px;
+  font-size: 30px;
+  width: 60px;
+  text-align: center;
+  text-decoration: none;
+  height: 40px;
+  border: 1px solid white;
+  border-radius: 30px;
+}
+
+/* Add a hover effect if you want */
+.Third ul li a:hover {
+  opacity: 0.7;
+  width: 60px;
+  /* background-color: white; */
+  /* color: black; */
+  /* padding: 5px; */
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+#ff {
+  /* background: #3B5998; */
+  color: white;
+}
+
+/* Linkdin */
+#fl {
+  /* background: #104913; */
+  color: white;
+}
+
+/* Twitter */
+#ft {
+  /* background: #55ACEE; */
+  color: white;
+}
+
+/* Instagram */
+#fi {
+  /* background: #c9155a; */
+  color: white;
+}
+
+/*Github*/
+#fg {
+  /* background: #175091; */
+  color: white;
+}

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact.css" <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Nipur - Developer Portfolio</title>
+</head>
+
+<body>
+    <header>
+        <header>
+            <nav>
+                <div class="left">Nipur Jain</div>
+                <div class="right">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="skills.html">Skills</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="Contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+    </header>
+    <main>
+        <h1>Contact me</h1>
+        <section class="Contactsection">
+            <div class="leftsection">
+                <span class="hello">Contact Details :-</span>
+                <br>
+                <ul>
+                    <li></a>&#9990; Contact No. : +919719635652</li>
+                    <li>&#9993; Email: nipurjain.tmu.cs@gmail.com</li>
+                    <!-- <li>Instagram ID: _nipur_jain_</li> -->
+                    <li>&#9992; Address: New Boys Hostel, TMU Campus, Moradabad, 244001</li>
+                    <table class="logotable">
+                        <tr>
+                            <td><a href="https://www.facebook.com/nipur.jain.79" class="fa fa-facebook" target="_blank"
+                                    id="mf"></a></td>
+                            <td><a href="https://www.linkedin.com/in/nipur-jain-084b20223/" class="fa fa-linkedin"
+                                    target="_blank" id="ml"></a>
+                            </td>
+                            <td><a href="https://twitter.com/NipurJain_" class="fa fa-twitter" target="_blank"
+                                    id="mt"></a></td>
+                            <td><a href="https://www.instagram.com/_nipur_jain_/" class="fa fa-instagram"
+                                    target="_blank" id="mi"></a></td>
+                            <td><a href="https://github.com/NipurJain4" class="fa fa-github" target="_blank"
+                                    id="mg"></a></td>
+                        </tr>
+                    </table>
+            </div>
+            <div class="rightsection">
+                <form>
+                    <h2>
+                        Enter your Details
+                    </h2>
+                    <p>Your Name</p>
+                    <input type="text" name="name" id="name">
+                    <br>
+                    <p>Email Id</p>
+                    <input type="email" name="email" id="email">
+                    <br>
+                    <p>Message</p>
+                    <textarea type="text" name="message" id="message"></textarea>
+                    <br>
+                    <button onclick="inputcollect()">Submit</button>
+                </form>
+
+                <!-- <img src="contact2.png"> -->
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="first">
+                <p>
+                    Nipur's Developer Portfolio
+                </p>
+            </div>
+            <div class="Second">
+                <ul>
+                    <li><a href="index.html" class="footerlink">Home</a></li>
+                    <li><a href="about.html" class="footerlink">About</a></li>
+                    <li><a href="skills.html" class="footerlink">Skills</a></li>
+                    <li><a href="Contact.html" class="footerlink">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="Third">
+                <ul>
+                    <li><a href="https://www.facebook.com/nipur.jain.79" class="fa fa-facebook" target="_blank"
+                            id="ff"></a>
+                    </li>
+                    <li><a href="https://www.linkedin.com/in/nipur-jain-084b20223/" class="fa fa-linkedin"
+                            target="_blank" id="fl"></a></li>
+                    <li><a href="https://twitter.com/NipurJain_" class="fa fa-twitter" target="_blank" id="ft"></a></li>
+                    <li><a href="https://www.instagram.com/_nipur_jain_/" class="fa fa-instagram" target="_blank"
+                            id="fi"></a>
+                    </li>
+                    <li><a href="https://github.com/NipurJain4" class="fa fa-github" target="_blank" id="fg"></a></li>
+
+                </ul>
+            </div>
+            <div class="Fourth">
+                <ul>
+                    <li>I have an youtube channel Where I post few videos of my college life.</li>
+                    <li>
+                        <a href="https://www.youtube.com/@nipurjain5788"><button type="Submit"
+                                class="subscribe_btn">SUBSCRIBE</button></a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="footer-rights">
+            Copyright&#169;Nipur'sportfolio.com | All rights are reserved
+        </div>
+    </footer>
+    <script type="text/javascript">
+        function inputcollect() {
+            var name = document.getElementById("name").value;
+            var email = document.getElementById("email").value;
+            // var mobile_number = document.getElementById("mobile_number").value;
+            // alert(name + email + mobile_number);
+            alert("Hi! " + name + " Your Data Submitted successfully")
+        }
+    </script>
+</body>
+
+</html>
